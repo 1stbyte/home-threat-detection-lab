@@ -176,17 +176,14 @@ custom-wazuh-rules/auto-block-bruteforce.xml
 
 # 🧰 Skills Demonstrated
 
-This lab showcases:
-
-* SIEM alert triage
-* Endpoint telemetry investigation
-* IDS alert analysis
-* Detection rule development
-* MITRE ATT&CK mapping
-* Credential access detection logic
-* Reverse shell detection techniques
-* DNS tunneling detection
-* Automated containment workflows
+* Detection engineering using custom Wazuh rules
+* Network intrusion detection using Suricata IDS
+* Security log ingestion and analysis using Elastic Stack
+* Endpoint telemetry investigation workflows
+* MITRE ATT&CK technique mapping
+* SOC investigation timeline reconstruction
+* Incident response playbook development
+* Automated containment using Wazuh Active Response
 
 ---
 
