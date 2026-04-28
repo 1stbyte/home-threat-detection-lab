@@ -213,3 +213,31 @@ Planned enhancements:
 * Persistence technique monitoring
 * Expanded Suricata threat coverage
 * Defender Advanced Hunting correlation examples
+
+---
+
+## Investigation Walkthrough Screenshots
+
+### Wazuh Security Monitoring Dashboard
+![Wazuh Overview](screenshots/01-wazuh-overview.png)
+
+### Brute Force Authentication Alert
+![Brute Force Alert](screenshots/02-bruteforce-alert.png)
+
+### Authentication Log Analysis
+![Authentication Logs](screenshots/03-auth-log-analysis.png)
+
+### Suricata Port Scan Detection
+![Suricata Alert](screenshots/04-suricata-portscan.png)
+
+### File Integrity Monitoring Alert
+![FIM Alert](screenshots/05-fim-alert.png)
+
+### Suspicious Command Execution Detection
+![Suspicious Command](screenshots/06-suspicious-command.png)
+
+### Incident Timeline Reconstruction
+![Incident Timeline](screenshots/07-incident-timeline.png)
+
+### Containment Action (Active Response Block)
+![Containment Action](screenshots/08-containment-action.png)
