@@ -1,0 +1,11 @@
+<group name="custom,powershell,execution">
+  <rule id="100001" level="12">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.commandLine">-[eE][nN][cC]|EncodedCommand</field>
+    <description>PowerShell executed with encoded command flag (possible obfuscation)</description>
+    <mitre>
+      <id>T1059.001</id>
+      <id>T1027</id>
+    </mitre>
+  </rule>
+</group>

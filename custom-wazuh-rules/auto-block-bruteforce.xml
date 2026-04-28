@@ -1,0 +1,9 @@
+<ossec_config>
+  <active-response>
+    <command>firewall-drop</command>
+    <location>local</location>
+    <rules_id>5763</rules_id>
+    <timeout>600</timeout>
+    <repeated_offenders>30,60,120</repeated_offenders>
+  </active-response>
+</ossec_config>

@@ -1,0 +1,11 @@
+<group name="custom,credential_access,lsass">
+  <rule id="100002" level="14">
+    <if_sid>61612</if_sid>
+    <field name="win.eventdata.targetImage">(?i)lsass\.exe</field>
+    <field name="win.eventdata.grantedAccess">0x1010|0x1FFFFF</field>
+    <description>Suspicious process accessed LSASS memory (possible credential dumping)</description>
+    <mitre>
+      <id>T1003.001</id>
+    </mitre>
+  </rule>
+</group>
