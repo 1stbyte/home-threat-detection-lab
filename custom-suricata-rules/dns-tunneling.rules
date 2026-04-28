@@ -1,0 +1,11 @@
+alert dns any any -> any any (
+    msg:"CUSTOM DNS Tunneling – Long subdomain label";
+    dns.query;
+    content:".";
+    pcre:"/^[a-zA-Z0-9]{50,}\./";
+    threshold: type both, track by_src, count 10, seconds 60;
+    classtype:bad-unknown;
+    sid:9000001;
+    rev:1;
+    metadata: mitre_technique T1048.003;
+)
